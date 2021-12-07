@@ -1,0 +1,117 @@
+{
+    "source": "mockoon:1.16.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "fe38fe76-7034-4dee-9e56-afdcb72171a2",
+                "lastMigration": 18,
+                "name": "New environment",
+                "endpointPrefix": "",
+                "latency": 0,
+                "port": 3334,
+                "hostname": "0.0.0.0",
+                "routes": [
+                    {
+                        "uuid": "3d254a93-da00-43b8-83af-d8dd77351fbc",
+                        "documentation": "",
+                        "method": "post",
+                        "endpoint": "auth",
+                        "responses": [
+                            {
+                                "uuid": "64d6adbd-b688-4a40-b468-b5095f545ab6",
+                                "body": "{\n  \"accessToken\":\"abcdef123456\"\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "b935ae4e-c8a4-492e-be67-747a262edc8a",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "profile",
+                        "responses": [
+                            {
+                                "uuid": "e3890d66-7019-4d65-8e49-9b25e16b00f1",
+                                "body": "{\n  \"profile\": {\n    \"userId\": 898768,\n    \"firstName\": \"John\",\n    \"lastName\" : \"Doe\",\n    \"note\": { \"average\":3, \"total\":10},\n    \"city\": \"Los Angeles\",\n    \"state\": \"CA\",\n    \"infos\": \"Lorem ipsum dolor sit amet\",\n    \"favorites\": [12678, 99876, 67543, 10977]\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "506088eb-8389-45bc-8482-f221fc61e38c",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "houselist",
+                        "responses": [
+                            {
+                                "uuid": "aecef94f-eb84-4ff3-b641-7e9ac0112fbb",
+                                "body": "{\n  \"houselist\":[\n    {\n      \"id\": 12676,\n      \"name\": \"Style & Chic\",\n      \"city\": \"Los Angeles\",\n      \"state\": \"CA\",\n      \"isFavorite\": false,\n      \"pictureURL\":\"https://images.unsplash.com/photo-1637207947587-3065d13a3fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80\", \n      \"price\":{\n        \"value\": 1500,\n        \"currencyCode\": \"USD\",\n        \"currencySymbol\": \"$\"\n      },\n      \"owner\": {\n        \"id\":8965,\n        \"firstName\":\"Timmy\",\n        \"lastName\": \"Bremmer\",\n        \"avatarURL\": \"https://cdn.dribbble.com/users/2364329/screenshots/4759681/dribbble-11.jpg\",\n        \"rating\": { \"average\":4, \"total\":20}\n      },\n      \"bedrooms\": 2,\n      \"bathrooms\": 1,\n      \"kitchens\": 1\n    },\n    {\n      \"id\": 12679,\n      \"name\": \"Romance\",\n      \"city\": \"Los Angeles\",\n      \"state\": \"CA\",\n      \"isFavorite\": true,\n      \"pictureURL\":\"https://images.unsplash.com/photo-1633110187937-6e3b2f36dfca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80\", \n      \"price\":{\n        \"value\": 3700,\n        \"currencyCode\": \"USD\",\n        \"currencySymbol\": \"$\"\n      },\n      \"owner\": {\n        \"id\": 14936,\n        \"firstName\":\"Carol\",\n        \"lastName\": \"Michigan\",\n        \"avatarURL\": \"https://i.pinimg.com/736x/28/0c/7d/280c7df0706c689019cd9e670024313e.jpg\",\n        \"rating\": { \"average\":3, \"total\":10}\n      },\n      \"bedrooms\": 2,\n      \"bathrooms\": 2,\n      \"kitchens\": 1\n    },\n    {\n      \"id\": 12690,\n      \"name\": \"Warm Design\",\n      \"city\": \"New-York\",\n      \"state\": \"CA\",\n      \"isFavorite\": true,\n      \"pictureURL\":\"https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60\", \n      \"price\":{\n        \"value\": 2900,\n        \"currencyCode\": \"USD\",\n        \"currencySymbol\": \"$\"\n      },\n      \"owner\": {\n        \"id\": 76438,\n        \"firstName\":\"Bill\",\n        \"lastName\": \"Lebowsky\",\n        \"avatarURL\": \"https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/104113705/original/6076831db34315e45bd2a31a9d79bb7b91d48e04/design-flat-style-minimalist-avatar-of-you.jpg\",\n        \"rating\": { \"average\":4, \"total\":80}\n      },\n      \"bedrooms\": 4,\n      \"bathrooms\": 3,\n      \"kitchens\": 1\n    },\n    {\n      \"id\": 12645,\n      \"name\": \"Riad in the Rough\",\n      \"city\": \"Marrakech\",\n      \"state\": \"MA\",\n      \"isFavorite\": true,\n      \"pictureURL\":\"https://images.unsplash.com/photo-1540396515873-dd778f7679e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80\", \n      \"price\":{\n        \"value\": 5900,\n        \"currencyCode\": \"USD\",\n        \"currencySymbol\": \"$\"\n      },\n      \"owner\": {\n        \"id\": 76438,\n        \"firstName\":\"Megan\",\n        \"lastName\": \"Foxx\",\n        \"avatarURL\": \"https://2.bp.blogspot.com/-RVzIIoxl6Sk/W56WLuJfY8I/AAAAAAAAPzE/E3W1_7FoThkxqoRqi-Vt8w18JlREVEHywCLcBGAs/s1600/steam%2Bprofile%2Bpicture%2B-steam%2Bavatar%2B%252813%2529.jpg\",\n        \"rating\": { \"average\":5, \"total\":123}\n      },\n      \"bedrooms\": 2,\n      \"bathrooms\": 2,\n      \"kitchens\": 1\n    },\n    {\n      \"id\": 45645,\n      \"name\": \"Juniper Room\",\n      \"city\": \"Toronto\",\n      \"state\": \"--\",\n      \"isFavorite\": false,\n      \"pictureURL\":\"https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80\", \n      \"price\":{\n        \"value\": 2895,\n        \"currencyCode\": \"USD\",\n        \"currencySymbol\": \"$\"\n      },\n      \"owner\": {\n        \"id\": 76438,\n        \"firstName\":\"Megan\",\n        \"lastName\": \"Foxx\",\n        \"avatarURL\": \"https://2.bp.blogspot.com/-RVzIIoxl6Sk/W56WLuJfY8I/AAAAAAAAPzE/E3W1_7FoThkxqoRqi-Vt8w18JlREVEHywCLcBGAs/s1600/steam%2Bprofile%2Bpicture%2B-steam%2Bavatar%2B%252813%2529.jpg\",\n        \"rating\": { \"average\":5, \"total\":123}\n      },\n      \"bedrooms\": 2,\n      \"bathrooms\": 2,\n      \"kitchens\": 1\n    }\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "proxyRemovePrefix": false,
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
