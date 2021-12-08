@@ -1,0 +1,12 @@
+{
+  "profile": {
+    "userId": 898768,
+    "firstName": "John",
+    "lastName" : "Doe",
+    "note": { "average":3, "total":10},
+    "city": "Los Angeles",
+    "state": "CA",
+    "infos": "Lorem ipsum dolor sit amet",
+    "favorites": [12678, 99876, 67543, 10977]
+  }
+}

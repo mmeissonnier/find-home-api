@@ -1,0 +1,138 @@
+{
+  "houselist":[
+    {
+      "id": 12676,
+      "name": "Style & Chic",
+       "location": {
+        "city": "Los Angeles",
+        "state": "CA"
+       },
+      "tags": ["Hi-speed Wifi", "Deskspace","Safe location"],
+      "isFavorite": false,
+      "pictureURL":"https://images.unsplash.com/photo-1637207947587-3065d13a3fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80", 
+      "price":{
+        "value": 1500,
+        "currencyCode": "USD",
+        "currencySymbol": "$"
+      },
+      "owner": {
+        "id":8965,
+        "firstName":"Timmy",
+        "lastName": "Bremmer",
+        "avatarURL": "https://cdn.dribbble.com/users/2364329/screenshots/4759681/dribbble-11.jpg",
+        "rating": { "average":4, "total":20}
+      },
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "kitchens": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus condimentum nulla diam proin quis commodo malesuada. Dolor morbi egestas consectetur egestas aliquam tellus. Accumsan tristique consequat nec cras commodo et orci ipsum, convallis. Lectus nibh ut eget quis quis praesent pellentesque. Molestie a id potenti vivamus blandit aliquet iaculis sed. Amet ut rutrum mauris gravida pellentesque eget in in potenti."
+    },
+    {
+      "id": 12679,
+      "name": "Romance",
+      "location":{
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      "tags": ["Hi-speed Wifi", "Deskspace","Safe location"],
+      "isFavorite": true,
+      "pictureURL":"https://images.unsplash.com/photo-1633110187937-6e3b2f36dfca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80", 
+      "price":{
+        "value": 3700,
+        "currencyCode": "USD",
+        "currencySymbol": "$"
+      },
+      "owner": {
+        "id": 14936,
+        "firstName":"Carol",
+        "lastName": "Michigan",
+        "avatarURL": "https://i.pinimg.com/736x/28/0c/7d/280c7df0706c689019cd9e670024313e.jpg",
+        "rating": { "average":3, "total":10}
+      },
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "kitchens": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus condimentum nulla diam proin quis commodo malesuada. Dolor morbi egestas consectetur egestas aliquam tellus. Accumsan tristique consequat nec cras commodo et orci ipsum, convallis. Lectus nibh ut eget quis quis praesent pellentesque. Molestie a id potenti vivamus blandit aliquet iaculis sed. Amet ut rutrum mauris gravida pellentesque eget in in potenti."
+    },
+    {
+      "id": 12690,
+      "name": "Warm Design",
+      "location":{
+        "city": "New-York",
+        "state": "CA"
+      },
+      "tags": ["Hi-speed Wifi", "Deskspace","Safe location"],
+      "isFavorite": true,
+      "pictureURL":"https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60", 
+      "price":{
+        "value": 2900,
+        "currencyCode": "USD",
+        "currencySymbol": "$"
+      },
+      "owner": {
+        "id": 76438,
+        "firstName":"Bill",
+        "lastName": "Lebowsky",
+        "avatarURL": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/104113705/original/6076831db34315e45bd2a31a9d79bb7b91d48e04/design-flat-style-minimalist-avatar-of-you.jpg",
+        "rating": { "average":4, "total":80}
+      },
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "kitchens": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus condimentum nulla diam proin quis commodo malesuada. Dolor morbi egestas consectetur egestas aliquam tellus. Accumsan tristique consequat nec cras commodo et orci ipsum, convallis. Lectus nibh ut eget quis quis praesent pellentesque. Molestie a id potenti vivamus blandit aliquet iaculis sed. Amet ut rutrum mauris gravida pellentesque eget in in potenti."
+    },
+    {
+      "id": 12645,
+      "name": "Riad in the Rough",
+      "location": {
+      "city": "Marrakech",
+      "state": "MA"
+      },
+      "tags": ["Hi-speed Wifi", "Deskspace","Safe location"],
+      "isFavorite": true,
+      "pictureURL":"https://images.unsplash.com/photo-1540396515873-dd778f7679e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80", 
+      "price":{
+        "value": 5900,
+        "currencyCode": "USD",
+        "currencySymbol": "$"
+      },
+      "owner": {
+        "id": 76438,
+        "firstName":"Megan",
+        "lastName": "Foxx",
+        "avatarURL": "https://2.bp.blogspot.com/-RVzIIoxl6Sk/W56WLuJfY8I/AAAAAAAAPzE/E3W1_7FoThkxqoRqi-Vt8w18JlREVEHywCLcBGAs/s1600/steam%2Bprofile%2Bpicture%2B-steam%2Bavatar%2B%252813%2529.jpg",
+        "rating": { "average":5, "total":123}
+      },
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "kitchens": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus condimentum nulla diam proin quis commodo malesuada. Dolor morbi egestas consectetur egestas aliquam tellus. Accumsan tristique consequat nec cras commodo et orci ipsum, convallis. Lectus nibh ut eget quis quis praesent pellentesque. Molestie a id potenti vivamus blandit aliquet iaculis sed. Amet ut rutrum mauris gravida pellentesque eget in in potenti."
+    },
+    {
+      "id": 45645,
+      "name": "Juniper Room",
+      "location": {
+      "city": "Toronto",
+      "state": "--"
+      },
+      "isFavorite": false,
+      "pictureURL":"https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80", 
+      "price":{
+        "value": 2895,
+        "currencyCode": "USD",
+        "currencySymbol": "$"
+      },
+      "owner": {
+        "id": 76438,
+        "firstName":"Megan",
+        "lastName": "Foxx",
+        "avatarURL": "https://2.bp.blogspot.com/-RVzIIoxl6Sk/W56WLuJfY8I/AAAAAAAAPzE/E3W1_7FoThkxqoRqi-Vt8w18JlREVEHywCLcBGAs/s1600/steam%2Bprofile%2Bpicture%2B-steam%2Bavatar%2B%252813%2529.jpg",
+        "rating": { "average":5, "total":123}
+      },
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "kitchens": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus condimentum nulla diam proin quis commodo malesuada. Dolor morbi egestas consectetur egestas aliquam tellus. Accumsan tristique consequat nec cras commodo et orci ipsum, convallis. Lectus nibh ut eget quis quis praesent pellentesque. Molestie a id potenti vivamus blandit aliquet iaculis sed. Amet ut rutrum mauris gravida pellentesque eget in in potenti."
+    }
+  ]
+}
