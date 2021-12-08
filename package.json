@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx mockoon-cli start --data https://raw.githubusercontent.com/mmeissonnier/find-home-api/main/env.json --port 8000 --index 0"
+    "start": "npx mockoon-cli start --data https://raw.githubusercontent.com/mmeissonnier/find-home-api/main/env.json --port ${PORT} --index 0"
   },
   "author": "",
   "license": "ISC",
